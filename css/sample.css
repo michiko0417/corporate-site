@@ -265,10 +265,12 @@ h1 {
 
 .news_li{
   list-style: none;
+  line-height: 2;
 }
 
 .news_li span{
   color: #42b9d0;
+  
   
 }
 
