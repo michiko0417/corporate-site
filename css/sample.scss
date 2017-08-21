@@ -461,14 +461,28 @@ h1{
   color: $blue1;
 }
 #sub_cover{
+    text-align: center;
+  padding:80px 0;
+
+ 
+
+    background-image: url("../images/news/sub_cover.jpg");
+    background-size: cover;
+
+  @media screen and (-webkit-min-device-pixel-ratio:2),
+                    (min-resolution: 2dppx){
+
+    background-image: url("../images/news/sub_cover@2x.jpg");
+
+  }
+  
   text-align: center;
   color: #ffffff;
   font-size: 1.4em;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 80px 0;
-  background-image: url("../images/news/sub_cover.jpg");
-  background-size: cover; }
+}
   
 #contents{
   padding: 20px;
